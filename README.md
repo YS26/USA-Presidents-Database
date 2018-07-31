@@ -9,21 +9,30 @@ My main table is the president’s table, my president’s table consists of 45 
 
 Here’s a screenshot of mine president with just the first eight presidents. 
 
+![](images/presidentsTable.png)
+
 My second table was the first lady’s table, which represented all the president’s first ladies that were in office for the longest time. Unfortunately, some died very early after their husbands won the election and didn’t have the opportunity to really be first lady so I didn’t include them in order to save space in my database as well. The first lady’s table consists of the first lady’s own primary key which is called first lady number, the first lady’s first name and last name, her place of birth, and also an interesting fact about her. Originally I wanted to add their key role in office, but when I started reading about the first ladies I really enjoyed it and wanted to add my favorite interesting facts about them.
 Here’s a screenshot that shows the first eight first ladies. I couldn’t get all the rows and columns to show due to the size of all my tables, so unfortunately I can only show the first eight. 
+
+![](images/firstladyTable.png)
 
 	My third table was the vice presidents table; mine vice president consists of it’s own primary key, the vice president’s first and last name, place of birth, year in which they came into office and last year in office. In my database I have forty-five listed, there were more than 45 vice presidents as well but I chose to do forty-five due to the fact that it made it easier for me to work with. 
 Here’s a screenshot of the first eight vice presidents and their information.
 
+![](images/vicePresidents.png)
 
 My fourth table was presidents white house pets table. This is my favorite table, due the fact that I think is unique and shows the fun side a president. When I was reading about Lincoln, he had a turkey as a pet, but chose to pardon it at the end. Which shows how much of a good person he was. President Trump in the other hand is the only president not to have a pet so far. My pet’s table consists of three columns, the pet’s primary key, the pet’s name and lastly the type of pet the president had. 
+
 Here’s a screenshot of some of the presidential pets. The first being president George Washington’s pet, and John Adams the sixth president of the U.S.A who had an Alligator! 
+
+![](images/presidentsPets.png)
+
  
 	My last table was the president’s libraries table. This table consisted of the president’s who had libraries dedicated to them, I was surprised to see that not all the presidents of the U.S have their own libraries. The library table consists of the it’s own primary key called prespres_libID, the name of the library called prespres_libname, the state and city which the library is located and lastly the year which it opened. 
 (Here’s a screen of how mine president’s library table) 
  
 	
-
+![](images/presidentsLibraryTable.png)
 
 
 	Stored Procedures:
@@ -35,6 +44,7 @@ I made four stored procedures in my database, for updating, inserting and deleti
 Diagram to show relationship:
 For my diagram, I showed the relationships that the president’s fist lady, president pets, vice presidents and president library have with the president table. I connected the prespets, vicepresident, prespreslibrary and firstlady tables to the president table by using their primary keys in the president table. I also made this Diagram in SQL.
 
+![](images/relationalDiagram.png)
 
 Conclusion:
 Overall, this project has helped me learned more about databases and how they work. I had a great amount of fun doing research about all the presidents and their vice presidents, first ladies, as well as their pets and libraries. The stored procedures also taught me new things. 
