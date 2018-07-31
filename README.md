@@ -4,15 +4,19 @@ A SQL database project consisting of the U.S presidents, their wives, white hous
 
 
 Tables:
-For mine database project, I created five tables in order to represent information about all the past presidents of the United States, their first ladies, along with their vice presidents, their white house pets and lastly their libraries.
+For mine database project for the CIS 245 Database Management class, I created five tables in order to represent information about all the past presidents of the United States, their first ladies, along with their vice presidents, their white house pets and lastly their libraries.
+
 My main table is the president’s table, my president’s table consists of 45 rows and 14 columns.  In my first column I have mine primary key which is the unique number that I chose to represent each individual president, numbered one through 45. My second column was the president birthdate, which lists the month day and year of when all the presidents where born. I also made a first and last name column along with the year in which their term started as well as the year in which their term ended. I also added their political party either Democratic, Republican, Independent or unaffiliated, and also added the year which the president died. In order to make a normalized relationship I added four more tables which consisted of all the other tables primary keys. Which included the first lady number, vice president number, president pet number, and the president library num. 
+
+In order to save up space I decided to only use the first 8 instead of all 50 in the screenshots.
 
 Here’s a screenshot of mine president with just the first eight presidents. 
 
 ![](images/presidentsTable.png)
 
 My second table was the first lady’s table, which represented all the president’s first ladies that were in office for the longest time. Unfortunately, some died very early after their husbands won the election and didn’t have the opportunity to really be first lady so I didn’t include them in order to save space in my database as well. The first lady’s table consists of the first lady’s own primary key which is called first lady number, the first lady’s first name and last name, her place of birth, and also an interesting fact about her. Originally I wanted to add their key role in office, but when I started reading about the first ladies I really enjoyed it and wanted to add my favorite interesting facts about them.
-Here’s a screenshot that shows the first eight first ladies. I couldn’t get all the rows and columns to show due to the size of all my tables, so unfortunately I can only show the first eight. 
+
+Here’s a screenshot that shows the first eight first ladies. 
 
 ![](images/firstladyTable.png)
 
