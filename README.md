@@ -21,6 +21,7 @@ Here’s a screenshot that shows the first eight first ladies.
 ![](images/firstladyTable.png)
 
 	My third table was the vice presidents table; mine vice president consists of it’s own primary key, the vice president’s first and last name, place of birth, year in which they came into office and last year in office. In my database I have forty-five listed, there were more than 45 vice presidents as well but I chose to do forty-five due to the fact that it made it easier for me to work with. 
+	
 Here’s a screenshot of the first eight vice presidents and their information.
 
 ![](images/vicePresidents.png)
@@ -41,14 +42,17 @@ Here’s a screenshot of some of the presidential pets. The first being presiden
 
 	Stored Procedures:
 
-I made four stored procedures in my database, for updating, inserting and deleting information in my database tables. 											 My first stored procedure was an update procedure on the first lady’s table. Due to the fact that president Grover first actual first lady was his sister he couldn’t marry her, her name was Grover Cleveland. Once president Cleveland ended up getting married to Frances Cleveland she became the new first lady. So I made this update procedure in order to update the new first lady. My second stored procedure was a delete procedure, I made this in order to remove president Richard Nixon who was the 37th president of the U.S.A who got impeached and end up being replaced by his vice president Gerald Ford.  My third stored procedure was an insert procedure. Once I deleted president Richard Nixon after he got impeached I inserted his Vice President as the new president for the remaining period of Richard Nixon’s term. I gave the vice president two different primary keys due to the fact that he first replaced president Richard Nixon and also ended up winning another term as president of the United States during the following elections.  My last stored procedure was a delete procedure, which I made in order to delete a vice president who died in office his name was George Clinton and served under president James Madison. 
+I made four stored procedures in my database, for updating, inserting and deleting information in my database tables. 											
+	My first stored procedure was an update procedure on the first lady’s table. Due to the fact that president Grover first actual first lady was his sister he couldn’t marry her, her name was Grover Cleveland. Once president Cleveland ended up getting married to Frances Cleveland she became the new first lady. So I made this update procedure in order to update the new first lady. My second stored procedure was a delete procedure, I made this in order to remove president Richard Nixon who was the 37th president of the U.S.A who got impeached and end up being replaced by his vice president Gerald Ford.  My third stored procedure was an insert procedure. Once I deleted president Richard Nixon after he got impeached I inserted his Vice President as the new president for the remaining period of Richard Nixon’s term. I gave the vice president two different primary keys due to the fact that he first replaced president Richard Nixon and also ended up winning another term as president of the United States during the following elections.  My last stored procedure was a delete procedure, which I made in order to delete a vice president who died in office his name was George Clinton and served under president James Madison. 
 
 
 
-Diagram to show relationship:
-For my diagram, I showed the relationships that the president’s fist lady, president pets, vice presidents and president library have with the president table. I connected the prespets, vicepresident, prespreslibrary and firstlady tables to the president table by using their primary keys in the president table. I also made this Diagram in SQL.
+	Diagram to show relationship:
+	
+	For my diagram, I showed the relationships that the president’s fist lady, president pets, vice presidents and president library have with the president table. I connected the prespets, vicepresident, prespreslibrary and firstlady tables to the president table by using their primary keys in the president table. I also made this Diagram in SQL.
 
 ![](images/relationalDiagram.png)
 
 Conclusion:
-Overall, this project has helped me learned more about databases and how they work. I had a great amount of fun doing research about all the presidents and their vice presidents, first ladies, as well as their pets and libraries. The stored procedures also taught me new things. 
+
+	Overall, this project has helped me learn more about databases and how they work. I had a great amount of fun doing research about all the presidents and their vice presidents, first ladies, as well as their pets and libraries. The stored procedures also taught me more about databases and their complexity. 
